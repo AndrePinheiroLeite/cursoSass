@@ -92,3 +92,20 @@ nav {
 }
 
 
+/*--------------  Aula 04 Interpolação -------------
+Sass
+*/
+
+$name: destaque;
+$atrr: border;
+
+p.#{$name}{
+
+    #{$atrr}-color:blue;
+}
+
+// Quando compilar ficará assim no: CSS
+
+p.destaque{
+    border-color:blue;
+}

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 nav {
   width: 100%;
   background: #000; }
@@ -51,5 +52,14 @@ nav {
   color: #fff;
   width: 100%;
   font-size: 1.2rem; }
+
+/*--------------  Aula 04 Interpola├º├úo -------------
+Sass
+*/
+p.destaque {
+  border-color: blue; }
+
+p.destaque {
+  border-color: blue; }
 
 /*# sourceMappingURL=style.css.map */
