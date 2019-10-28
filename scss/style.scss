@@ -67,3 +67,28 @@ a{
         color:blue;
     }
 }
+
+//--------------------------------------------------------------
+
+/*----------------   AULA 03 --------------
+variaveis: tipos: numericas: 3.5rem, 300px, 300;
+variaveis: tipos: strings: "Lucida Grande", bold; (aqui foi dado exemplo de font com aspas e sem aspas) 
+variaveis: tipos:Cores: #ffffff, rgba(0,0,0.7), red;
+
+
+*/
+
+$width: 100%;
+$font-size: 1.2rem;
+$background: #962acd;
+$color:#fff;
+$border-style:solid 1px $color;
+
+nav {
+    background: $background;
+    color: $color;
+    width: $width;
+    font-size: $font-size;
+}
+
+
