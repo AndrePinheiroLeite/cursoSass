@@ -109,3 +109,40 @@ p.#{$name}{
 p.destaque{
     border-color:blue;
 }
+
+/*------------ Aula 12 media queries -----------------
+Sass
+
+
+*/
+.sidebar{
+    width:38%;
+    @media screen and (orientation:landscape){
+        width:40%;
+    }
+}
+
+//------ Mais Exemplos ----------
+
+$tablet-width:768px;
+$desktop-width:1024px;
+
+@mixin landscape{
+    @media screen and (orientation:landscape){
+        @content;
+    } 
+}
+
+
+@mixin tablet{
+    @media(min-width:#{$tablet-width}){
+        @content;
+    }
+}
+
+@mixin desktop{
+    @media (min-width: #{$desktop-width}){
+        @content;
+    }
+}
+

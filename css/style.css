@@ -62,4 +62,15 @@ p.destaque {
 p.destaque {
   border-color: blue; }
 
+/*------------ Aula 12 media queries -----------------
+Sass
+
+
+*/
+.sidebar {
+  width: 38%; }
+  @media screen and (orientation: landscape) {
+    .sidebar {
+      width: 40%; } }
+
 /*# sourceMappingURL=style.css.map */
